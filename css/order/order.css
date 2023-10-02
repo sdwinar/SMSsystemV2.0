@@ -1,0 +1,197 @@
+/* <meta name="viewport" content="width=device-width, initial-scale=1"> */
+/* width */
+::-webkit-scrollbar {
+  width:6px;
+margin-top: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #04d3d3;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #05358d; 
+}
+.form-group {
+    margin-bottom:0 !important;
+}
+/* ************************* * order reprt */
+.row.b1_report_row {
+    border: 2px solid aliceblue !important;
+    margin: 30px;
+    padding: 20px;
+    color: aliceblue;
+    font-weight: bold;
+}
+input,
+select ,.taklefa {
+    margin-left: 2px;
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid #ff899f52 !important;
+    text-align: center !important;
+    box-shadow: 1px 0px 0px #ff899f52;
+    color: beige !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+#tree4_name,#tree3_code_select{
+color: #000000 !important;
+}
+.calc_row {
+    border-bottom: 2px solid blue;
+    border-radius: 10%;
+    margin: 10px 0px 0px 0px;
+    height: 100%;
+    position: relative;
+    padding: 0px 0px 5px 0px;
+}
+.card-title.sec_title{
+    background: none!important;
+    font-weight: bold !important;
+    height: 35px;
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 19px;
+    border-bottom: 1.5px solid #ffd1d1;
+    border-radius: 4%;
+    margin-bottom: 16px;
+    color: aliceblue;
+}
+.sec_cadrd{
+    background: none;
+    border: 1px solid aliceblue;
+    /* backdrop-filter: opacity(0.2); */
+    filter: drop-shadow(0px 0px 0px aliceblue);
+    overflow: auto;
+    height: 477px;
+    box-shadow: 3px 3px 10px !important;
+
+}
+.sec_card_body{
+    padding: 0px 21px !important;
+
+}
+.sec-badge_order{
+    margin: -11px 0px;
+    font-size: 17px;
+    background: none;
+    color: #ff859c;
+
+    text-shadow: 0 0.5 red !important;
+    width: 74px !important;
+    max-width: 500px !important;
+    box-shadow: 0px 0px 3px white;
+}
+.sec-badge {
+    margin: 3px 0px;
+    font-size: 16px;
+    text-align: center;
+    background: none;
+    color: #ff859c;
+    height: 5vh;
+    text-shadow: 0 0.5 red !important;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px white;
+}
+.sec-badge:hover{
+    background: #0a0aee;
+    color: #ffffff;
+    /* font-size: 20px; */
+}
+button.btn.btn-success.col-12.set_cash:hover {
+    background: red !important;
+}
+.sec_active{
+    background: #0a0aee;
+    color: #ffffff;
+    /* font-size: 20px; */
+}
+.sec_it_img{
+    width: 120px;
+    height: 143px;
+    border-bottom: 2.5px solid #0a0a7e;
+    border-radius: 15%;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    box-shadow: 2px 1px 0px white;
+    filter: brightness(0.9) !important;
+
+   
+}
+.sec_it_img:hover{
+   
+    filter: brightness(0.4) !important;
+}
+.order_it_name {
+    bottom: 75.5%;
+    position: relative;
+    text-align: center;
+    background: #000000;
+    border-bottom: 2px solid gray;
+    border-radius: 12.5%;
+    color: #ff859c;
+    filter: drop-shadow(2px 4px 6px black);
+    font-size: 12px;
+    font-weight: bold;
+    right: 10px;
+    padding-bottom: 4px;
+}
+.order_it_pr_out{
+    bottom: 26%;
+    position: relative;
+    text-align: center;
+    background: #000000;
+    border-bottom: 2px solid gray;
+    border-radius: 12.5%;
+    color: #ff859c;
+    filter: drop-shadow(2px 4px 6px black);
+    font-size: 12px;
+    font-weight: bold;
+    right: 10px;
+    padding-bottom: 4px;
+
+}
+input#prder_serch_it {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    text-align: center;
+    border-bottom: 2px solid blue;
+    border-radius: 11%;
+    /* filter: drop-shadow(2px 4px 6px black); */
+    box-shadow: 1px 1px black;
+    color: black  !important;
+    font-weight: bold !important;
+    margin-bottom: 5px !important;
+    padding-bottom: 11px;
+    font-size: 22px !important;
+
+}
+input#prder_serch_it:focus {
+    background: none;
+    border: none;
+    position: relative;
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: center;
+    border-radius: none;
+    /* filter: drop-shadow(2px 4px 6px black); */
+    font-weight: bold !important;
+    margin-bottom: 5px !important;
+    padding-bottom: 11px;
+    font-size: 22px !important;
+}
